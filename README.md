@@ -2,11 +2,11 @@
 
 Color handling library written in Python.
 
-<!-- ## Installation
-<!-- **Windows:** `pip install color-py`
+## Installation
+**Windows:** `pip install color-py`
 
-<!-- **Linux/macOS:** `pip3 install color-py`
--->
+**Linux/macOS:** `pip3 install color-py`
+
 ## Usage
 ```py
 from color-py.Color import Color
