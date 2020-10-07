@@ -35,10 +35,9 @@ class Color:
         self.b = b & 0xff
 
     @staticmethod
-    def mix(colors):
+    def mix(color1, colors):
+        colors = color1
         count = len(colors)
-        if count < 1:
-            raise ValueError("No colors given")
 
         a = 0
         r = 0
@@ -61,6 +60,10 @@ class Color:
     def fromARGB(code):
         return Color((code >> 16) & 0xff, (code >> 8) & 0xff, code & 0xff, (code >> 24) & 0xff)
 
+    @staticmethod
+    def fromABGR(code):
+        return Color(code & 0xff, (code >> 8) & 0xff, (code >> 16) & 0xff, (code >> 24) & 0xff)
+
     def toARGB(self):
         return (self.a << 24) | (self.r << 16) | (self.g << 8) | self.b
 
@@ -72,7 +75,3 @@ class Color:
 
     def toABGR(self):
         return (self.a << 24) | (self.b << 16) | (self.g << 8) | self.r
-
-    @staticmethod
-    def fromABGR(code):
-        return Color(code & 0xff, (code >> 8) & 0xff, (code >> 16) & 0xff, (code >> 24) & 0xff)
