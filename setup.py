@@ -2,10 +2,10 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name = "PyColor",
+    name = "Color-Py",
     version = "1.0",
     description = "Color handling library written in Python.",
-    url = "https://github.com/IceCruelStuff/PyColor",
+    url = "https://github.com/IceCruelStuff/Color-Py",
     author = "IceCruelStuff",
     license = "Apache-2.0 License",
     classifiers = [
