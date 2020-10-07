@@ -7,6 +7,8 @@ Color handling library written in Python.
 
 **Linux/macOS:** `pip3 install color-py`
 
+You can also view this project on [PyPi](https://pypi.org/project/Color-Py/)
+
 ## Usage
 ```py
 from color-py.Color import Color
