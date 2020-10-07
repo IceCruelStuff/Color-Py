@@ -3,13 +3,13 @@
 Color handling library written in Python.
 
 <!-- ## Installation
-<!-- **Windows:** `pip install pycolor`
+<!-- **Windows:** `pip install color-py`
 
-<!-- **Linux/macOS:** `pip3 install pycolor`
+<!-- **Linux/macOS:** `pip3 install color-py`
 -->
 ## Usage
 ```py
-from pycolor.Color import Color
+from color-py.Color import Color
 
 colors = [
     new Color(0x38, 0x5d, 0xc6)
