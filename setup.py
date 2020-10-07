@@ -5,6 +5,7 @@ setup(
     name = "Color-Py",
     version = "1.0",
     description = "Color handling library written in Python.",
+    long-description = "Color handling library written in Python.",
     url = "https://github.com/IceCruelStuff/Color-Py",
     author = "IceCruelStuff",
     license = "Apache-2.0 License",
