@@ -1,4 +1,4 @@
-# PyColor
+# Color-Py
 
 Color handling library written in Python.
 
